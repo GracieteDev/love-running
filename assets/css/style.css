@@ -190,6 +190,18 @@ main {
     color: #fafafa;
 }
 
+/* Gallery page */
+#photos img {
+    width: 100%;
+    /* Make the alt text between the photos visible */
+    line-height: 1em;
+
+}
+/* remove the white spaces between the photos */
+#photos {
+    line-height: 0;
+}
+
 /* Footer */
 #social-networks {
     text-align: center;
